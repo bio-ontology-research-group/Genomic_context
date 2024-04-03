@@ -1,0 +1,86 @@
+
+[2024-03-31 12:23:56,875] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,842] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,842] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,844] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,890] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,896] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,911] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,927] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-03-31 12:24:13,963] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Len of train_dataloader:  688081
+Free CPU Memory: 708.33 GB
+LOADING MODEL
+86011
+NOW WILL START TRAINING
+training epoch 0
+GPU memory occupied: 7610 MB.
+evaluation epoch 0
+Train loss: 4.035597324108262
+Val loss: 1.9609568051297481
+Acc:  0.7385483644020312
+
+
+
+training epoch 1
+GPU memory occupied: 8144 MB.
+evaluation epoch 1
+Train loss: 1.7183683378393693
+Val loss: 1.5398300844822603
+Acc:  0.7864146370879597
+
+
+
+training epoch 2
+GPU memory occupied: 8144 MB.
+evaluation epoch 2
+Train loss: 1.3198240833878874
+Val loss: 1.3900149318337045
+Acc:  0.8064334064509321
+
+
+
+training epoch 3
+GPU memory occupied: 8144 MB.
+evaluation epoch 3
+Train loss: 1.0883373390712574
+Val loss: 1.3210122238287394
+Acc:  0.8193536756040997
+
+
+
+training epoch 4
+GPU memory occupied: 8144 MB.
+evaluation epoch 4
+Train loss: 0.9030304357741387
+Val loss: 1.3046012037854195
+Acc:  0.8283755958079243
+
+
+
+training epoch 5
+GPU memory occupied: 8144 MB.
+evaluation epoch 5
+Train loss: 0.7443235612963658
+Val loss: 1.3099467694476814
+Acc:  0.8355007927354776
+
+
+
+training epoch 6
+GPU memory occupied: 8144 MB.
+evaluation epoch 6
+Train loss: 0.5946879218621296
+Val loss: 1.2406879439542178
+Acc:  0.8409770747432718
+
+
+
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad
+Saved pre_trained model here: BERT_context_pretrained_InterPro_final_context5_no_pad

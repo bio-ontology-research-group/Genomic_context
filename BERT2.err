@@ -1,0 +1,363 @@
+Loading module for CUDA 11.7.1
+CUDA 11.7.1 is now loaded
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_processes` was set to a value of `8`
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-03-31 12:24:24.203593: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.203610: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.203905: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.203907: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.204174: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.204196: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.204475: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:24.204477: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 12:24:26.008919: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.008920: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.008989: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.008989: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.009013: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.009013: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.009035: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.009056: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 12:24:26.605970: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.605991: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.606374: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.606379: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.606709: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.606720: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.607055: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:26.607065: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 12:24:31.143953: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.143952: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.144037: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.144038: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.144093: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.144100: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.144147: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.144154: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.145380: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.145391: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.145911: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.145921: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.147027: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.147039: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.147507: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.147519: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.148407: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.148419: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.148538: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.148550: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.150253: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.150266: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-03-31 12:24:31.151294: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /sw/rl9g/cuda/11.7.1/lib64
+2024-03-31 12:24:31.151307: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: Currently logged in as: toibazar903. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/toibazd/.netrc
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122525-fqc88sd5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run major-plasma-1
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/fqc88sd5
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122525-pd7xy2px
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gallant-dawn-2
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/pd7xy2px
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122525-tpsrpzxf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run atomic-dust-2
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/tpsrpzxf
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122528-z1np3pec
+wandb: Run `wandb offline` to turn off syncing.
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122528-zc64ryyy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run expert-elevator-4
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/z1np3pec
+wandb: Syncing run trim-wood-4
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/zc64ryyy
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122529-10t8qpqg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122529-nipbc7kk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run wise-leaf-6
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/10t8qpqg
+wandb: Syncing run warm-smoke-7
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/nipbc7kk
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.2
+wandb: Run data is saved locally in /home/toibazd/Data/BERT/wandb/run-20240331_122529-96upj1h3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run efficient-bush-8
+wandb: ⭐️ View project at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad
+wandb: 🚀 View run at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/96upj1h3
+  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s]  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [4:30:45<27:04:30, 16245.10s/it] 14%|█▍        | 1/7 [4:30:52<27:05:16, 16252.68s/it] 14%|█▍        | 1/7 [4:30:57<27:05:42, 16257.13s/it] 14%|█▍        | 1/7 [4:31:00<27:06:02, 16260.36s/it] 14%|█▍        | 1/7 [4:31:29<27:08:59, 16289.94s/it] 14%|█▍        | 1/7 [4:31:47<27:10:45, 16307.53s/it] 14%|█▍        | 1/7 [4:32:04<27:12:29, 16324.95s/it] 14%|█▍        | 1/7 [4:33:35<27:21:35, 16415.85s/it] 29%|██▊       | 2/7 [9:02:59<22:38:07, 16297.52s/it] 29%|██▊       | 2/7 [9:03:02<22:38:10, 16298.18s/it] 29%|██▊       | 2/7 [9:03:20<22:38:16, 16299.25s/it] 29%|██▊       | 2/7 [9:03:27<22:39:18, 16311.70s/it] 29%|██▊       | 2/7 [9:03:37<22:39:49, 16317.82s/it] 29%|██▊       | 2/7 [9:04:05<22:40:12, 16322.53s/it] 29%|██▊       | 2/7 [9:04:18<22:41:21, 16336.36s/it] 29%|██▊       | 2/7 [9:04:33<22:40:13, 16322.61s/it] 43%|████▎     | 3/7 [13:34:06<18:05:29, 16282.37s/it] 43%|████▎     | 3/7 [13:34:07<18:05:37, 16284.28s/it] 43%|████▎     | 3/7 [13:34:19<18:05:37, 16284.26s/it] 43%|████▎     | 3/7 [13:34:26<18:05:46, 16286.58s/it] 43%|████▎     | 3/7 [13:34:42<18:06:04, 16291.15s/it] 43%|████▎     | 3/7 [13:35:09<18:06:28, 16297.05s/it] 43%|████▎     | 3/7 [13:35:21<18:06:44, 16301.19s/it] 43%|████▎     | 3/7 [13:35:39<18:06:28, 16297.00s/it] 57%|█████▋    | 4/7 [18:05:11<13:33:19, 16266.51s/it] 57%|█████▋    | 4/7 [18:05:20<13:33:40, 16273.39s/it] 57%|█████▋    | 4/7 [18:05:40<13:34:22, 16287.64s/it] 57%|█████▋    | 4/7 [18:05:46<13:34:28, 16289.34s/it] 57%|█████▋    | 4/7 [18:05:51<13:33:46, 16275.43s/it] 57%|█████▋    | 4/7 [18:06:20<13:34:13, 16284.54s/it] 57%|█████▋    | 4/7 [18:06:26<13:33:51, 16277.10s/it] 57%|█████▋    | 4/7 [18:06:38<13:35:17, 16305.84s/it] 71%|███████▏  | 5/7 [22:36:48<9:02:37, 16278.89s/it]  71%|███████▏  | 5/7 [22:36:51<9:02:37, 16278.86s/it]  71%|███████▏  | 5/7 [22:36:58<9:02:25, 16272.57s/it]  71%|███████▏  | 5/7 [22:37:18<9:03:00, 16290.30s/it]  71%|███████▏  | 5/7 [22:38:03<9:03:02, 16291.03s/it]  71%|███████▏  | 5/7 [22:38:07<9:03:37, 16308.88s/it]  71%|███████▏  | 5/7 [22:38:14<9:02:56, 16288.38s/it]  71%|███████▏  | 5/7 [22:38:19<9:03:27, 16303.93s/it] wandb: ERROR Error while calling W&B API: commands out of sync. You can't run this command now (<Response [500]>)
+ 86%|████████▌ | 6/7 [27:09:18<4:31:35, 16295.31s/it] 86%|████████▌ | 6/7 [27:09:23<4:31:43, 16303.41s/it] 86%|████████▌ | 6/7 [27:09:28<4:31:46, 16306.58s/it] 86%|████████▌ | 6/7 [27:09:48<4:31:50, 16310.52s/it] 86%|████████▌ | 6/7 [27:10:14<4:31:44, 16304.85s/it] 86%|████████▌ | 6/7 [27:10:23<4:31:58, 16318.10s/it] 86%|████████▌ | 6/7 [27:10:43<4:31:48, 16308.81s/it] 86%|████████▌ | 6/7 [27:10:52<4:32:00, 16320.69s/it]100%|██████████| 7/7 [31:40:39<00:00, 16290.73s/it]  100%|██████████| 7/7 [31:40:39<00:00, 16291.37s/it]
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.007 MB of 0.007 MB uploadedwandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.007 MB of 0.007 MB uploadedwandb: - 0.014 MB of 0.014 MB uploadedwandb: \ 0.015 MB of 0.032 MB uploadedwandb: | 0.015 MB of 0.032 MB uploadedwandb: / 0.032 MB of 0.032 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: train_loss █▅▂▃▃▂▂▂▂▂▁▂▂▁▁▁▂▁▁▁▁▁▁▁▂▁▂▁▂▂▁▁▁▁▁▁▁▁▁▂
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.60315
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run atomic-dust-2 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/tpsrpzxf
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122525-tpsrpzxf/logs
+100%|██████████| 7/7 [31:40:56<00:00, 16300.33s/it]  100%|██████████| 7/7 [31:40:56<00:00, 16293.78s/it]
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.007 MB of 0.008 MB uploadedwandb: - 0.007 MB of 0.023 MB uploadedwandb: \ 0.023 MB of 0.023 MB uploadedwandb: | 0.023 MB of 0.023 MB uploadedwandb: / 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+100%|██████████| 7/7 [31:41:05<00:00, 16287.18s/it]  100%|██████████| 7/7 [31:41:05<00:00, 16295.09s/it]
+100%|██████████| 7/7 [31:41:06<00:00, 16303.43s/it]  100%|██████████| 7/7 [31:41:06<00:00, 16295.22s/it]
+wandb: 
+wandb: Run history:
+wandb: train_loss █▅▃▂▂▂▂▂▃▂▁▁▂▂▁▁▁▂▁▁▁▂▁▁▁▁▂▂▂▁▁▁▁▂▁▁▁▁▂▁
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.0784
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run expert-elevator-4 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/z1np3pec
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122528-z1np3pec/logs
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.007 MB of 0.023 MB uploadedwandb: - 0.007 MB of 0.023 MB uploadedwandb: \ 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: / 0.007 MB of 0.007 MB uploadedwandb: 
+wandb: Run history:
+wandb: train_loss █▄▃▃▂▂▁▁▂▂▁▁▁▁▂▂▁▂▁▂▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.39272
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run major-plasma-1 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/fqc88sd5
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122525-fqc88sd5/logs
+wandb: - 0.007 MB of 0.007 MB uploaded100%|██████████| 7/7 [31:41:14<00:00, 16302.57s/it]  100%|██████████| 7/7 [31:41:14<00:00, 16296.33s/it]
+wandb: \ 0.023 MB of 0.023 MB uploadedwandb: | 0.023 MB of 0.023 MB uploadedwandb: / 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: train_loss █▆▃▃▃▂▂▂▂▂▁▂▁▁▁▁▁▂▂▁▁▂▂▁▃▂▂▂▁▁▁▁▁▁▂▁▁▁▂▁
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.54288
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run trim-wood-4 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/zc64ryyy
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122528-zc64ryyy/logs
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.007 MB of 0.007 MB uploadedwandb: - 0.008 MB of 0.023 MB uploadedwandb: \ 0.008 MB of 0.023 MB uploadedwandb: | 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: train_loss █▄▃▃▃▂▁▂▂▁▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.3748
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run efficient-bush-8 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/96upj1h3
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122529-96upj1h3/logs
+100%|██████████| 7/7 [31:41:46<00:00, 16306.82s/it]  100%|██████████| 7/7 [31:41:46<00:00, 16300.97s/it]
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.008 MB of 0.023 MB uploadedwandb: - 0.008 MB of 0.023 MB uploadedwandb: \ 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: train_loss █▅▃▃▂▂▂▂▂▂▂▂▂▁▁▂▂▂▂▁▁▂▂▁▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.05524
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run gallant-dawn-2 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/pd7xy2px
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122525-pd7xy2px/logs
+100%|██████████| 7/7 [31:41:59<00:00, 16298.22s/it]  100%|██████████| 7/7 [31:41:59<00:00, 16302.80s/it]
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploaded100%|██████████| 7/7 [31:42:05<00:00, 16305.02s/it]  100%|██████████| 7/7 [31:42:05<00:00, 16303.58s/it]
+wandb: / 0.007 MB of 0.007 MB uploadedwandb: - 0.007 MB of 0.023 MB uploadedwandb: \ 0.018 MB of 0.023 MB uploadedwandb: | 0.018 MB of 0.023 MB uploadedwandb: / 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: - 0.007 MB of 0.007 MB uploadedwandb: 
+wandb: Run history:
+wandb: train_loss █▅▃▃▂▂▂▂▁▂▂▁▂▁▂▃▁▂▁▁▁▂▁▁▂▁▂▁▁▂▁▁▁▂▁▁▁▁▁▂
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 0.1608
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run warm-smoke-7 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/nipbc7kk
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122529-nipbc7kk/logs
+wandb: \ 0.007 MB of 0.007 MB uploadedwandb: | 0.007 MB of 0.007 MB uploadedwandb: / 0.007 MB of 0.023 MB uploadedwandb: - 0.007 MB of 0.023 MB uploadedwandb: \ 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: train_loss █▅▃▂▂▂▂▂▂▂▂▂▁▂▃▂▁▁▁▁▁▂▁▁▁▁▁▁▂▁▂▁▂▂▁▁▁▁▁▁
+wandb:    val_acc ▂▄▁▄▄▃▁▇▂▄▆▃▆▂▃▄▃▁▅▃▄▆▃▂█▄▅▅▃▆▂▃▅▅▃▅▃▅▅▄
+wandb:   val_loss █▄▇▆▃▅▇▁▄▄▂▆▃▆▃▄▄█▃▅▄▂▄█▁▃▄▂▅▂▆▃▄▄▇▂▅▄▂▅
+wandb: 
+wandb: Run summary:
+wandb: train_loss 1.11921
+wandb:    val_acc 0.76471
+wandb:   val_loss 1.9446
+wandb: 
+wandb: 🚀 View run wise-leaf-6 at: https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/runs/10t8qpqg
+wandb: ️⚡ View job at https://wandb.ai/toibazar903/InterPro_BERT_training_context5_no_pad/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDk0OTYyNw==/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240331_122529-10t8qpqg/logs
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -7) local_rank: 0 (pid: 977615) of binary: /home/toibazd/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/toibazd/miniconda3/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home/toibazd/miniconda3/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 45, in main
+    args.func(args)
+  File "/home/toibazd/miniconda3/lib/python3.9/site-packages/accelerate/commands/launch.py", line 970, in launch_command
+    multi_gpu_launcher(args)
+  File "/home/toibazd/miniconda3/lib/python3.9/site-packages/accelerate/commands/launch.py", line 646, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/home/toibazd/miniconda3/lib/python3.9/site-packages/torch/distributed/run.py", line 753, in run
+    elastic_launch(
+  File "/home/toibazd/miniconda3/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/toibazd/miniconda3/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 246, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+======================================================
+BERT_training_accelerate.py FAILED
+------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 1 (local_rank: 1)
+  exitcode  : -7 (pid: 977616)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977616
+[2]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 2 (local_rank: 2)
+  exitcode  : -7 (pid: 977617)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977617
+[3]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 3 (local_rank: 3)
+  exitcode  : -7 (pid: 977618)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977618
+[4]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 4 (local_rank: 4)
+  exitcode  : -7 (pid: 977619)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977619
+[5]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 5 (local_rank: 5)
+  exitcode  : -7 (pid: 977620)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977620
+[6]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 6 (local_rank: 6)
+  exitcode  : -7 (pid: 977621)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977621
+[7]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 7 (local_rank: 7)
+  exitcode  : -7 (pid: 977622)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977622
+------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-04-01_20:08:47
+  host      : gpu212-14.ibex.kaust.edu.sa
+  rank      : 0 (local_rank: 0)
+  exitcode  : -7 (pid: 977615)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 977615
+======================================================
+/var/spool/slurm/job33166964/slurm_script: line 20: 977551 Bus error               accelerate launch --mixed_precision fp16 BERT_training_accelerate.py
