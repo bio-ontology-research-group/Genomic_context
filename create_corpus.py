@@ -1,13 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import os
 import random
+import click
 from tqdm import tqdm 
-def create_sentences(directory):
+
+def create_sentences(directory, step_size):
     sentences = []
     
     # Iterate over the text files in the directory
@@ -20,8 +16,8 @@ def create_sentences(directory):
                 content = file.read()
                 words = content.split()
                 
-                # Generate sentences of length 9 with step size 3
-                for i in range(0, len(words) - 8, 3):
+                # Generate sentences of length 9 with specified step size
+                for i in range(0, len(words) - 8, step_size):
                     sentence = ' '.join(words[i:i+9])
                     sentences.append(sentence)
     
@@ -32,14 +28,6 @@ def create_sentences(directory):
     train_size = int(0.9 * len(sentences))
     train_sentences = sentences[:train_size]
     test_sentences = sentences[train_size:]
-    
-    # Randomly remove 10% of sentences from train set
-    # train_remove_count = int(0.1 * len(train_sentences))
-    # train_sentences = random.sample(train_sentences, len(train_sentences) - train_remove_count)
-    
-    # Randomly remove 10% of sentences from test set
-    # test_remove_count = int(0.1 * len(test_sentences))
-    # test_sentences = random.sample(test_sentences, len(test_sentences) - test_remove_count)
     
     # Write the train sentences to train.txt
     with open('train.txt', 'w') as train_file:
@@ -52,27 +40,14 @@ def create_sentences(directory):
     print(f"Created {len(train_sentences)} sentences in train.txt")
     print(f"Created {len(test_sentences)} sentences in test.txt")
 
-# Specify the directory containing the text files
-directory = '/ibex/user/toibazd/InterPro_annotated_genomes/'
+@click.command()
+@click.option('--directory', 
+              type=click.Path(exists=True, file_okay=False, dir_okay=True),
+              help='Directory containing the text files')
+@click.option('--step-size', default=3, type=int, help='Step size for generating sentences')
+def main(directory, step_size):
+    """Create sentences from text files in the specified directory with given step size."""
+    create_sentences(directory, step_size)
 
-# Create the sentences and write them to files
-create_sentences(directory)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+if __name__ == '__main__':
+    main()
