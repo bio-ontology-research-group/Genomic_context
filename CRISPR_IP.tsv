@@ -1,0 +1,109 @@
+Accession	Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms
+IPR002729	CRISPR-associated protein Cas1	interpro	family		MF_01470,PF01867,TIGR00287	GO:0003676,GO:0004519,GO:0046872,GO:0043571,GO:0051607
+IPR002764	CRISPR-associated protein Cas7/Cst2/DevR, subtype I-a/Apern	interpro	family		TIGR02583	
+IPR005510	CRISPR type III-associated RAMP protein Csm4	interpro	family		TIGR01903	
+IPR005537	CRISPR type III-associated protein	interpro	family		PF03787	
+IPR006482	CRISPR-associated protein Cas7, subtype I-B/I-C	interpro	family		TIGR01595,PF05107	GO:0043571
+IPR007522	CRISPR-associated protein TM1795	interpro	family		TIGR01894	
+IPR009260	CRISPR-associated exonuclease Csa1	interpro	family		PF06023,PIRSF009226,TIGR01896	
+IPR010144	CRISPR-associated protein, Csd1-type	interpro	family		PF09709,TIGR01863	
+IPR010146	CRISPR-associated protein, Csn2-type	interpro	family		PF09711,TIGR01866	
+IPR010147	CRISPR-associated protein, CasD	interpro	family		TIGR01868	GO:0003723,GO:0051607
+IPR010148	CRISPR-associated protein, CT1975	interpro	family		cd09646,PF09344,TIGR01869	
+IPR010149	CRISPR-associated protein, Csm2 Type III-A	interpro	family		PF03750,cd09647,TIGR01870	
+IPR010152	CRISPR-associated protein Cas2 subtype	interpro	family		PF09707,TIGR01873	
+IPR010153	CRISPR-associated protein, Cas5a type	interpro	family		TIGR01874	
+IPR010154	CRISPR-associated protein Cas7/Cst2/DevR	interpro	family		TIGR01875,PF01905	
+IPR010155	CRISPR pre-crRNA endoribonuclease Cas5d	interpro	family		PIRSF029950,TIGR01876	GO:0004519,GO:0051607
+IPR010156	CRISPR-associated endoribonuclease Cas6	interpro	family		PTHR36984,PIRSF005054,TIGR01877	GO:0016788
+IPR010157	CRISPR type I-A/APERN-associated protein Csa5	interpro	family		PF09702,TIGR01878	
+IPR010160	CRISPR-associated protein, Cmr5	interpro	family		PF09701,TIGR01881	
+IPR010163	CRISPR-associated CARF protein Csa3	interpro	family		TIGR01884	
+IPR010165	Type III-B CRISPR module-associated protein Cmr3	interpro	family		TIGR01888	
+IPR010171	CRISPR system endoribonuclease Csx1	interpro	family		TIGR01897	
+IPR010172	CRISPR-associated protein, TM1791	interpro	family		PTHR39965,TIGR01898	
+IPR010173	CRISPR-associated protein Csm5	interpro	family		PTHR38007,TIGR01899	
+IPR010179	CRISPR-associated protein Cse3	interpro	family		SM01101,PF08798,TIGR01907	
+IPR010180	CRISPR-associated protein, CXXC-CXXC	interpro	family		TIGR01908	
+IPR010184	CRISPR-associated protein, MJ0385	interpro	family		cd09666,PF09703,TIGR01914	
+IPR011742	CRISPR-associated protein, TM1812	interpro	family		TIGR02221	
+IPR013337	CRISPR-associated protein Cas5, Tneap type	interpro	family		TIGR01895	
+IPR013343	CRISPR-associated protein Cas4	interpro	family		TIGR00372	
+IPR013381	CRISPR-associated protein Cse1	interpro	family		cd09669,PF09481,TIGR02547	
+IPR013382	CRISPR-associated protein Cse2	interpro	family		cd09670,PF09485,TIGR02548	
+IPR013389	CRISPR-associated protein Cas8b	interpro	family		PF09484,TIGR02556	
+IPR013395	CRISPR-associated Cas3, Yersinia-type	interpro	family		TIGR02562	
+IPR013396	CRISPR-associated endoribonuclease Cas6/Csy4, subtype I-F/YPEST	interpro	family		cd09739,PF09618,TIGR02563	GO:0004519,GO:0043571
+IPR013397	Type I-F CRISPR-associated protein Csy1	interpro	family		TIGR02564,PF09611	
+IPR013398	Type I-F CRISPR-associated protein Csy2	interpro	family		PF09614,TIGR02565	
+IPR013399	Type I-F CRISPR-associated protein Csy3	interpro	family		PF09615,TIGR02566	
+IPR013403	Type I-U CRISPR-associated RAMP protein Csb1/Cas7u	interpro	family		PF09617,TIGR02570	
+IPR013407	CRISPR-associated protein Cmr2	interpro	family		TIGR02577	
+IPR013408	CRISPR system single-strand-specific deoxyribonuclease Cas10/Csm1	interpro	family		cd09680,TIGR02578	
+IPR013409	CRISPR-associated protein Crn3/Csx3	interpro	family		PF09620,TIGR02579	
+IPR013410	CRISPR-associated RAMP Cmr4	interpro	family		TIGR02580,PTHR36700	
+IPR013411	CRISPR-associated RAMP protein Csx7	interpro	family		TIGR02581	
+IPR013412	CRISPR-associated RAMP Csm3	interpro	family		cd09684,TIGR02582	
+IPR013413	CRISPR-associated protein, NE0113	interpro	family		TIGR02584	
+IPR013414	CRISPR-associated protein Cas7, subtype I-B/Tneap	interpro	family		TIGR02585	
+IPR013415	CRISPR-associated protein Cas5/Cmx5/DevS	interpro	family		TIGR02586	GO:0051607
+IPR013418	Type I-C CRISPR-associated protein Cas7/Csd2	interpro	family		TIGR02589	GO:0043571
+IPR013419	Type I-B CRISPR-associated protein Cas7/Csh2	interpro	family		TIGR02590	GO:0043571
+IPR013421	Type I-B CRISPR-associated protein Cas5, HALMA	interpro	family		TIGR02592	
+IPR013443	CRISPR-associated protein Csx16	interpro	family		PF09652,TIGR02620	
+IPR013444	Helicase Cas3, CRISPR-associated, Anaes-subtype	interpro	family		TIGR02621	
+IPR013487	CRISPR-associated protein Csx8	interpro	family		PF09657,TIGR02670	
+IPR013488	CRISPR-associated protein Csx9/Cas8a2	interpro	family		PF09658,TIGR02671	
+IPR013489	CRISPR-associated protein Csm6	interpro	family		cd09699,PF09659,TIGR02672	
+IPR013490	CRISPR-associated RAMP Csx10	interpro	family		TIGR02674	
+IPR013492	CRISPR system subtype II-B RNA-guided endonuclease Cas9/Csx12	interpro	family		TIGR03031	
+IPR014055	CRISPR-associated protein, Csx11	interpro	family		TIGR02682	
+IPR014082	CRISPR-associated protein, Cas02710	interpro	family		TIGR02710	
+IPR014174	CRISPR-associated protein Cas6/Cmx6	interpro	family		cd09703,PF09559,TIGR02807	
+IPR016581	CRISPR-associated protein Cas7, subtype I-B/Tneap, bacterial	interpro	family		PIRSF011362	GO:0051607
+IPR016620	CRISPR system ring nuclease SSO1393	interpro	family		PIRSF014470	
+IPR017545	CRISPR-associated protein Csf1	interpro	family		TIGR03114	
+IPR017546	CRISPR type IV/AFERR-associated protein Csf2	interpro	family		TIGR03115	
+IPR017547	CRISPR type IV/AFERR-associated protein Csf3	interpro	family		cd09707,TIGR03116	
+IPR017548	CRISPR-associated DEAD/DEAH-box helicase Csf4	interpro	family		TIGR03117	
+IPR017574	CRISPR-associated protein Cas7/Csc2	interpro	family		PF18320,TIGR03157	
+IPR017575	CRISPR-associated helicase Cas3'	interpro	family		TIGR03158	
+IPR017576	CRISPR-associated protein Csc1	interpro	family		TIGR03159	
+IPR017589	CRISPR associated protein Cas10d/Csc3	interpro	family		TIGR03174	
+IPR019089	CRISPR-associated protein, GSU0054	interpro	family		PF09609,TIGR02165	
+IPR019092	CRISPR-assoc protein, NE0113/Csx13	interpro	family		PF09623	
+IPR019117	CRISPR-associated protein, Cmr3	interpro	family		PF09700	
+IPR019199	Virulence-associated protein D / CRISPR associated protein Cas2	interpro	family		PF09827	
+IPR019848	CRISPR-associated protein, Csx14	interpro	family		TIGR03642	
+IPR019851	CRISPR-associated protein Cas1, ECOLI subtype	interpro	family		TIGR03638	GO:0004520,GO:0046872,GO:0043571
+IPR019855	CRISPR-associated protein Cas1, NMENI subtype	interpro	family		TIGR03639	GO:0004520,GO:0046872,GO:0043571
+IPR019856	CRISPR-associated protein Cas1, DVULG subtype	interpro	family		cd09721,TIGR03640	GO:0004520,GO:0046872,GO:0043571
+IPR019857	CRISPR-associated protein Cas1, YPEST subtype	interpro	family		cd09718,TIGR03637	GO:0004520,GO:0046872,GO:0043571
+IPR019858	CRISPR-associated protein Cas1, HMARI/TNEAP subtype	interpro	family		cd09722,TIGR03641,PTHR43219	GO:0004520,GO:0046872,GO:0043571
+IPR020029	CRISPR-associated protein Csp2	interpro	family		TIGR03487	
+IPR020031	CRISPR-associated protein Cas5p	interpro	family		cd09716,TIGR03488	
+IPR020032	CRISPR-associated protein Csp1	interpro	family		cd09717,TIGR03489	
+IPR021124	CRISPR-associated protein, Cas5	interpro	family		PF09704	GO:0043571
+IPR021127	CRISPR-associated endonuclease Cas2	interpro	family		cd09725,MF_01471,PTHR34405,PIRSF032582,TIGR01573	GO:0004521,GO:0043571
+IPR022297	CRISPR-associated protein, CsaX	interpro	family		TIGR03876	
+IPR023815	CRISPR-associated protein Csx19	interpro	family		TIGR03984	
+IPR023816	CRISPR-associated protein CYA0889	interpro	family		TIGR03985	
+IPR023825	CRISPR-associated RAMP BGP1436	interpro	family		TIGR03986	
+IPR023843	CRISPR-associated protein Cas1, cyanobacteria-type	interpro	family		TIGR04093	GO:0004520,GO:0046872,GO:0043571
+IPR023844	CRISPR-associated protein Cas1, MYXAN subtype	interpro	family		TIGR03983	GO:0004520,GO:0046872,GO:0043571
+IPR026391	CRISPR-associated protein GSU0052/csb3, Dpsyc system	interpro	family		TIGR04106	
+IPR026483	CRISPR-associated protein Csx17, subtype Dpsyc	interpro	family		TIGR04113	
+IPR027616	CRISPR-associated protein Cas4, PREFRAN subtype	interpro	family		TIGR04328	
+IPR027617	CRISPR-associated endonuclease Cas1, PREFRAN subtype	interpro	family		TIGR04329	GO:0004520,GO:0046872,GO:0043571
+IPR027620	CRISPR-associated endonuclease Cas12a	interpro	family		TIGR04330	
+IPR028629	CRISPR-associated endonuclease Cas9	interpro	family		MF_01480,TIGR01865	GO:0004519
+IPR030928	CRISPR type MYXAN-associated protein Cmx8	interpro	family		TIGR04413	
+IPR030955	CRISPR type III-associated protein, CHP04423 family	interpro	family		TIGR04423	
+IPR031820	CRISPR-associated protein Csn2 subfamily St	interpro	family		PF16813	
+IPR033641	CRISPR-associated protein Cas1, type I-E	interpro	family		cd09719	GO:0003676,GO:0004519,GO:0046872,GO:0043571,GO:0051607
+IPR043959	CRISPR system CMR subunit Cmr7 1	interpro	family		PF19021	GO:0051607,GO:0099048
+IPR047583	CRISPR-associated protein Cas5fv	interpro	family		cd21143	
+IPR049088	Anti-CRISPR protein Acr30-35/AcrF1	interpro	family		PF20829,cd22279	
+IPR049758	Anti-CRISPR type I subtype E3-like	interpro	family		cd22551	
+IPR049868	Type V CRISPR-associated protein Cas12k	interpro	family		NF038191	
+IPR049889	Type I-Fv CRISPR-associated protein Cas7fv-like	interpro	family		NF040577,cd21142	
