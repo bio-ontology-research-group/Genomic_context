@@ -1,8 +1,0 @@
-Accession	Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms
-IPR014858	BREX protein BrxB	interpro	family		PF08747	
-IPR021228	BREX system ATP-binding protein BrxD	interpro	family		PF10923	
-IPR047679	BREX system P-loop protein BrxC	interpro	family		NF033441	
-IPR047939	Adenine-specific DNA-methyltransferase PglX	interpro	family		NF033452	
-IPR047992	BREX system phosphatase PglZ	interpro	family		NF033446	
-IPR048067	BREX-3 system BrxF	interpro	family		NF033453	
-IPR049832	BREX system serine/threonine kinase PglW	interpro	family		NF033442	
