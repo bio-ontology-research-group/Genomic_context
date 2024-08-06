@@ -6,7 +6,7 @@ We developed a novel context-only dependent protein function prediction method b
 * The code was developed and tested using Python 3.9.13
 * Clone the repository
 ```terminal
-git clone
+git clone https://github.com/bio-ontology-research-group/Genomic_context.git
 ```
 * Create conda environment
 ```terminal
