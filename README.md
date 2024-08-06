@@ -1,1 +1,3 @@
-Protein function prediction (predicting GO classes) enhancement using Genomic context
+## Context-aware protein function prediction in bacterial genomes
+
+# We developed a novel context-only dependent protein function prediction method by leveraging the transformer model on bacterial genomic context. This repository contains scripts which we used to train BERT model, along with scripts we used for function prediction and evaluation of contextual approach.
