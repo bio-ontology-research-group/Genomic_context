@@ -4,9 +4,21 @@ We developed a novel context-only dependent protein function prediction method b
 
 ## Dependencies
 * The code was developed and tested using Python 3.9.13
-* Create conda environment with command
+* Clone the repository
 ```terminal
-conda create --name py39env python=3.9.13
+git clone
+```
+* Create conda environment
+```terminal
+conda create --name genomic_context python=3.9.13
+```
+* Activate your environment
+```terminal
+conda activate genomic_context
+```
+* Install dependencies
+```terminal
+pip install -r requirements.txt
 ```
 
 ## Citations
