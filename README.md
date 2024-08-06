@@ -20,6 +20,9 @@ conda activate genomic_context
 ```terminal
 pip install -r requirements.txt
 ```
+## Repo guide
+- BERT_word2vec_benchmark - contains scripts to run BERT and word2vec evaluations. The corpus for evaluation can be obtained via this [link]{(https://doi.org/10.5281/zenodo.7047944}.
+
 
 ## Citations
 
