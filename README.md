@@ -7,6 +7,6 @@ We developed a novel context-only dependent protein function prediction method b
 
 ## Citations
 
-If you find gLM useful in your work, please cite our paper:
+If you find this work useful in your work, please cite our paper:
 ```bibtex
 
