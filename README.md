@@ -26,8 +26,8 @@ pip install -r requirements.txt
 ## Repo guide
 - BERT_word2vec_benchmark - contains scripts to run BERT and word2vec evaluations. The genome corpus for evaluation can be obtained via following [link](https://doi.org/10.5281/zenodo.7047944). Pre-trained BERT model exported to [HF Hub](https://huggingface.co/Dauka-transformers/BERT_word2vec)
 - Defense_InterPro's - contains tsv files with InterPro ID's annotating bacterial defense systems. Data obtained from [InterPro website](https://www.ebi.ac.uk/interpro/entry/InterPro/#table)
--  Secretion_InterPro's - contains tsv file with InterPro ID's annotating bacterial secretion systems. Data obtained from [InterPro website](https://www.ebi.ac.uk/interpro/entry/InterPro/#table)
--- secretion.tsv
+- Secretion_InterPro's - contains tsv file with InterPro ID's annotating bacterial secretion systems. Data obtained from [InterPro website](https://www.ebi.ac.uk/interpro/entry/InterPro/#table)
+- 
 ## Citations
 
 If you find this work useful in your work, please cite our paper:
