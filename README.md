@@ -20,7 +20,7 @@ conda activate genomic_context
 ```terminal
 pip install -r requirements.txt
 ```
-* The training data we used in this study is deposited in Zenodo database under accession code _____ ([link](youtube.com)). Data includes NLP formatted genomes, cluster-representative protein sequences and mmseqs2 clustering results.
+* The training data we used in this study is deposited in Zenodo database under accession code 10.5281/zenodo.13932747 ([https://doi.org/10.5281/zenodo.13932747](https://doi.org/10.5281/zenodo.13932747)). Data includes NLP formatted genomes, cluster-representative protein sequences and mmseqs2 clustering results.
 
 
 ## Repo guide
