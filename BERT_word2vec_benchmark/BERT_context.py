@@ -58,14 +58,6 @@ def main(word_to_label_mapping, directory):
     one_hot_encoded_dict
     
     
-    # In[ ]:
-    
-    
-    
-    
-    
-    # In[6]:
-    
     
     import os
     import random
