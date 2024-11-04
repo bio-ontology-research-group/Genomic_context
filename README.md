@@ -32,5 +32,13 @@ pip install -r requirements.txt
 
 If you find this work useful in your work, please cite our paper:
 ```bibtex
-
+@article{Toibazar2024,
+  title = {Context-based protein function prediction in bacterial genomes},
+  url = {http://dx.doi.org/10.1101/2024.10.14.618363},
+  DOI = {10.1101/2024.10.14.618363},
+  publisher = {Cold Spring Harbor Laboratory},
+  author = {Toibazar,  Daulet and Kulmanov,  Maxat and Hoehndorf,  Robert},
+  year = {2024},
+  month = oct 
+}
 ```
