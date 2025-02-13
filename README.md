@@ -1,4 +1,20 @@
-## Context-aware protein function prediction in bacterial genomes
+<div align=center>
+<img src="figures/logo.png" width="280px">
+</div>
+
+<h2 align="center"> <a href="https://www.biorxiv.org/content/10.1101/2024.10.14.618363v1">Context-based protein function prediction in bacterial genomes</a></h2>
+
+<h5 align="center"><p>This project was previously named LLaVA-o1. We have renamed it to LLaVA-CoT. </h5>
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
+
+<h5 align=center>
+
+[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/Dauka-transformers/interpro_bert_2)
+[![arXiv](https://img.shields.io/badge/Arxiv-2411.10440v2-b31b1b.svg?logo=arXiv)](https://www.biorxiv.org/content/10.1101/2024.10.14.618363v1)
+[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/PKU-YuanGroup/LLaVA-CoT/blob/main/LICENSE)
+
+</h5>
+
 
 We explored a novel context-only dependent protein function prediction by leveraging the transformer-based representation learning on bacterial genomic context. This repository contains scripts which we used to train BERT model, along with scripts we used for function prediction and evaluation of contextual approach.
 
