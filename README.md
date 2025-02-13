@@ -1,5 +1,5 @@
 <div align=center>
-<img src="figures/logo.png" width="400px">
+<img src="figures/logo_2.png" width="400px">
 </div>
 
 <h2 align="center"> <a href="https://www.biorxiv.org/content/10.1101/2024.10.14.618363v1">Context-based protein function prediction in bacterial genomes</a></h2>
