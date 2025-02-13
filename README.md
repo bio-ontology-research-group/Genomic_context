@@ -4,14 +4,13 @@
 
 <h2 align="center"> <a href="https://www.biorxiv.org/content/10.1101/2024.10.14.618363v1">Context-based protein function prediction in bacterial genomes</a></h2>
 
-<h5 align="center"><p>This project was previously named LLaVA-o1. We have renamed it to LLaVA-CoT. </h5>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 <h5 align=center>
 
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/Dauka-transformers/interpro_bert_2)
 [![arXiv](https://img.shields.io/badge/Arxiv-2411.10440v2-b31b1b.svg?logo=arXiv)](https://www.biorxiv.org/content/10.1101/2024.10.14.618363v1)
-[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/PKU-YuanGroup/LLaVA-CoT/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/bio-ontology-research-group/Genomic_context/blob/master/LICENSE)
 
 </h5>
 
