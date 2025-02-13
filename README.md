@@ -24,6 +24,9 @@ pip install -r requirements.txt
 
 
 ## Repo guide
+- train - contains scripts to generate training data and train BERT. The training data is generated from [genomic corpus](https://doi.org/10.5281/zenodo.7047944).
+
+
 - BERT_word2vec_benchmark - contains scripts to run BERT and word2vec evaluations. The genome corpus for evaluation can be obtained via following [link](https://doi.org/10.5281/zenodo.7047944). Pre-trained BERT model exported to [HF Hub](https://huggingface.co/Dauka-transformers/BERT_word2vec)
 To get BERT classification results, run:
 ```terminal
