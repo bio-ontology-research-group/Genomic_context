@@ -2,7 +2,7 @@
 
 We explored a novel context-only dependent protein function prediction by leveraging the transformer-based representation learning on bacterial genomic context. This repository contains scripts which we used to train BERT model, along with scripts we used for function prediction and evaluation of contextual approach.
 
-## Dependencies
+## Installation
 * The code was developed and tested using Python 3.9.13
 * Clone the repository
 ```terminal
